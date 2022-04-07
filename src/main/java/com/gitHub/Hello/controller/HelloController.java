@@ -13,4 +13,9 @@ public class HelloController {
 	}
 	
 	
+	@RequestMapping("/name")
+	public String getHey(@PathVariable("name") String name) {
+		return "Hey	" + name;
+	}
+	
 }
