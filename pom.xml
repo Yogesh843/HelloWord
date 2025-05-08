@@ -13,6 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>HelloWord_forGitPractise</name>
 	<description>Demo project for Spring Boot</description>
+	<packaging>war</packaging>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -30,6 +31,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>HelloWorldThroughGitRepo</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
